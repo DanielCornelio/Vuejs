@@ -3,7 +3,7 @@ const vm = new Vue({
     
     data: {
         mensaje: 'Hola Mundo :V',
-        nuevaTarea: 'null',
+        nuevaTarea: '',
         tareas: [
             {titulo: 'Aprender Vue', prioridad: true, antiguedad:23},
             {titulo: 'Aprender ES6', prioridad: false, antiguedad:135},
